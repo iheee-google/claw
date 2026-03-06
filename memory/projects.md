@@ -35,15 +35,6 @@
 - **相关文件**: `memory/2026-03-06.md`
 - **更新时间**: 2026-03-06 11:00
 
-### [PROJECT:Session Close Hook]
-- **状态**: 进行中
-- **最近结论**: 已新增 `scripts/session-close-hook.sh`，并将“/new、/reset、会话关闭前先写收口日志”写入规则文件。
-- **下一步**:
-  - [ ] 在实际 `/new` / `/reset` 场景进行一次验证
-  - [ ] 如需自动化集成，补充宿主侧调用入口
-- **相关文件**: `scripts/session-close-hook.sh`, `AGENTS.md`, `HEARTBEAT.md`, `USER.md`, `memory/2026-03-06.md`
-- **更新时间**: 2026-03-06 11:24
-
 ### [PROJECT:Daily Summary Cron]
 - **状态**: 进行中
 - **最近结论**: 已配置 22:00 每日总结与最多3次重试，后续观察稳定性。

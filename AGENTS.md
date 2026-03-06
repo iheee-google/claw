@@ -251,17 +251,6 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 4. 若推送失败，必须在回复里给出失败原因与可直接复制的修复命令，不得只说“失败了”。
 5. 默认在当前仓库 `origin` 上维护；除非用户明确要求，不改远程地址和主分支策略。
 
-## 🔗 会话切换钩子（/new 前强制收口）
-
-- **触发时机**：执行 `/new`、`/reset`、会话关闭前。
-- **强制动作**：先写一条“本会话收口日志”到 `memory/YYYY-MM-DD.md`，再允许切换会话。
-- **执行脚本**：`scripts/session-close-hook.sh`
-  - 示例：
-    - `bash scripts/session-close-hook.sh --reason "/new" --summary "本会话主要结论"`
-    - `bash scripts/session-close-hook.sh --reason "/reset" --summary "当前上下文重置前收口"`
-- **失败策略**：写入失败视为未收口，不应宣告“任务完成”。
-- **兜底机制**：保留 HEARTBEAT 中的“会话收口补丁”作为补漏，不替代强制钩子。
-
 ## 🌐 语言设置（用户指定，立即生效）
 
 - 与用户的所有交流都使用中文。
