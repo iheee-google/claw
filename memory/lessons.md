@@ -54,3 +54,10 @@
 - **预防**: 新流程上线前先校验速率配额与并发模型，超限场景默认降级为串行。
 - **标签**: #rate-limit #capacity-planning #subagent
 
+### [P1] grok-41/grok-4.1-thinking 配置下出现“声明已提交但仓库无记录”
+- **日期**: 2026-03-06
+- **现象**: 在 grok-41/grok-4.1-thinking 配置阶段，多次回复声称已 commit/push，但 GitHub 未出现对应提交记录。
+- **根因**: 结果回报先于真实命令执行；且未先做 `git pull --rebase` 导致 push 被远端快进保护拒绝。
+- **修复**: 切换回当前稳定模型后，改为“先执行命令并拿到原始输出，再回报 hash”；补充日志明确标注该问题发生于 grok-41/grok-4.1-thinking 配置阶段。
+- **预防**: 未看到 `main -> main` 这类 push 成功输出前，禁止宣称已同步 GitHub；失败时必须附可复制修复命令。
+- **标签**: #git #grok-41 #postmortem #push-failure
