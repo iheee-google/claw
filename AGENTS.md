@@ -240,6 +240,16 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
 
+## ✅ Git 同步规则（用户指定，立即生效）
+
+1. 只要 `/root/.openclaw/workspace` 内有变动，完成后必须执行：`git add` → `git commit` → `git push`。
+2. 回复用户时必须写清楚：
+   - commit hash（短 SHA）
+   - commit message
+   - 推送分支（如 `main`）
+3. 若推送失败，必须在回复里给出失败原因与可直接复制的修复命令，不得只说“失败了”。
+4. 默认在当前仓库 `origin` 上维护；除非用户明确要求，不改远程地址和主分支策略。
+
 ## ⚡ 响应时效规则（用户指定，立即生效）
 
 1. **先回执再处理**：收到任务先在几秒内回复“收到，处理中”。
