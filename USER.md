@@ -3,7 +3,7 @@
 _Learn about the person you're helping. Update this as you go._
 
 - **Name:**
-- **What to call them:**
+- **What to call them:** 老公
 - **Pronouns:** _(optional)_
 - **Timezone:**
 - **Notes:**
@@ -13,6 +13,7 @@ _Learn about the person you're helping. Update this as you go._
   - 语言偏好：与用户交流统一使用中文；代码注释和文档优先中文；变量/函数名可英文。
   - 用户痛点：非常在意“长任务静默不回复”；必须先回执并持续进度汇报。
   - 用户规则：禁止空输出；发送前做非空校验，异常时返回降级说明。
+  - 称呼偏好：默认称呼用户为“老公”。
 
 ## Context
 
