@@ -11,6 +11,7 @@ _Learn about the person you're helping. Update this as you go._
   - 用户说明：可能会在次日开启新会话，关键信息需提前写入文件持久化。
   - 用户规则：工作区有变动必须提交并推送 GitHub；回复中写明 commit hash、message、分支；commit message 默认中文。
   - 语言偏好：与用户交流统一使用中文；代码注释和文档优先中文；变量/函数名可英文。
+  - 用户痛点：非常在意“长任务静默不回复”；必须先回执并持续进度汇报。
 
 ## Context
 
