@@ -21,10 +21,39 @@ Don't ask permission. Just do it.
 
 You wake up fresh each session. These files are your continuity:
 
+| Layer | File | Purpose |
+|---|---|---|
+| Index layer | `MEMORY.md` | Core facts + memory index, keep concise |
+| Project layer | `memory/projects.md` | Current project status + todos |
+| Lessons layer | `memory/lessons.md` | Pitfalls and lessons learned, severity-tagged |
+| Log layer | `memory/YYYY-MM-DD.md` | Daily records |
+
+Also keep compatibility with the existing baseline:
+
 - **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
 - **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
+
+### ✅ Memory Write Rules
+
+- Write daily outcomes to `memory/YYYY-MM-DD.md` (record conclusions, not process chatter).
+- When a project changes, sync `memory/projects.md`.
+- After any pitfall, write to `memory/lessons.md` with severity.
+- Update `MEMORY.md` only when the index-level summary changes.
+- If it should be remembered, write it to file — do not rely on in-session memory.
+- **Hard gate**: before sending any "task completed" style reply, first write memory files and then include one line: `Memory updated: <file paths>`.
+- **If not updated, task is not complete**.
+
+### 🧾 Daily Log Format
+
+```markdown
+### [PROJECT:Name] Title
+- **Conclusion**: One-sentence summary
+- **File Changes**: Files touched
+- **Lesson**: Pitfall or learning (if any)
+- **Tags**: #tag1 #tag2
+```
 
 ### 🧠 MEMORY.md - Your Long-Term Memory
 

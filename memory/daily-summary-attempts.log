@@ -1,0 +1,6 @@
+2026-03-05T11:38:00+08:00	attempt=1	status=fail	error=Use `target` instead of `to`/`channelId`.
+2026-03-05T11:38:20+08:00	attempt=2	status=fail	error=Use `target` instead of `to`/`channelId`.
+2026-03-05T11:38:35+08:00	attempt=3	status=fail	error=Use `target` instead of `to`/`channelId`.
+2026-03-05T11:45:11+0800	attempt=1	fail	error=Use target instead of to/channelId
+2026-03-05T11:45:38+0800	attempt=2	fail	error=Use target instead of to/channelId (included forbidden empty fields)
+2026-03-05T11:46:08+0800	attempt=3	success	error=-
