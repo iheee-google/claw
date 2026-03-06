@@ -247,8 +247,9 @@ This is a starting point. Add your own conventions, style, and rules as you figu
    - commit hash（短 SHA）
    - commit message
    - 推送分支（如 `main`）
-3. 若推送失败，必须在回复里给出失败原因与可直接复制的修复命令，不得只说“失败了”。
-4. 默认在当前仓库 `origin` 上维护；除非用户明确要求，不改远程地址和主分支策略。
+3. commit message 默认使用中文（除非用户明确要求英文）。
+4. 若推送失败，必须在回复里给出失败原因与可直接复制的修复命令，不得只说“失败了”。
+5. 默认在当前仓库 `origin` 上维护；除非用户明确要求，不改远程地址和主分支策略。
 
 ## 🌐 语言设置（用户指定，立即生效）
 

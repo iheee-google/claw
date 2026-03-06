@@ -9,7 +9,7 @@ _Learn about the person you're helping. Update this as you go._
 - **Notes:**
   - 用户偏好：涉及记忆机制/维护时，回复中要展示“具体写入了什么内容”，不要只给 `Memory updated` 行。
   - 用户说明：可能会在次日开启新会话，关键信息需提前写入文件持久化。
-  - 用户规则：工作区有变动必须提交并推送 GitHub；回复中写明 commit hash、message、分支。
+  - 用户规则：工作区有变动必须提交并推送 GitHub；回复中写明 commit hash、message、分支；commit message 默认中文。
   - 语言偏好：与用户交流统一使用中文；代码注释和文档优先中文；变量/函数名可英文。
 
 ## Context
