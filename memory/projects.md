@@ -64,12 +64,12 @@
 
 ### [PROJECT:Hooks Governance]
 - **状态**: 已完成
-- **最近结论**: 已按用户要求回退自定义 session-close 钩子，统一以官方内置 hooks（session-memory）为准。
+- **最近结论**: 已按用户要求开启全部官方内置 hooks（boot-md / bootstrap-extra-files / command-logger / session-memory），并在用户手动重启后确认生效。
 - **下一步**:
   - [ ] 观察后续会话收口是否稳定
   - [ ] 如需扩展，优先评估官方能力再做增量
-- **相关文件**: `AGENTS.md`, `HEARTBEAT.md`, `USER.md`, `scripts/session-close-hook.sh`, `memory/2026-03-06.md`
-- **更新时间**: 2026-03-06 12:00
+- **相关文件**: `AGENTS.md`, `HEARTBEAT.md`, `USER.md`, `scripts/session-close-hook.sh`, `memory/2026-03-06.md`, `/root/.openclaw/openclaw.json`, `memory/2026-03-07.md`
+- **更新时间**: 2026-03-07 13:42
 
 ### [PROJECT:Daily Summary Cron]
 - **状态**: 进行中
