@@ -15,7 +15,11 @@
 
 ## 会话收口补丁（heartbeat）
 - 仅在 09:00–23:00（Asia/Shanghai）执行。
-- 若最近 2 小时有会话活动，且今天日志无新增：
+- 触发条件（必须同时满足）：
+  1. 最近 2 小时有会话活动
+  2. 今天日志自上次补丁后无新增
+  3. 距离上次 `sessionClosePatch` 已满 2 小时（冷却时间）
+- 满足后执行：
   - 追加 1 条简洁结论到 `memory/YYYY-MM-DD.md`
   - 更新 `memory/memory-maintenance-state.json` 的 `lastRun.sessionClosePatch`
 - 23:30–08:30 为静默时段：非紧急不外发提醒。
