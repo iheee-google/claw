@@ -130,10 +130,10 @@
 
 
 ### [PROJECT:Continuous Task Autopilot]
-- **状态**: 进行中
-- **最近结论**: 已建立连续任务状态文件 `memory/continuous-task.json`，并在 HEARTBEAT 中加入“每轮推进一步”的执行规则。
+- **状态**: 暂缓
+- **最近结论**: 用户决定暂缓复杂 hook/cron 方案，先保留 heartbeat 单步推进机制；当前状态 `active=false`，确认处于关闭态。
 - **下一步**:
-  - [ ] 用真实连续优化任务跑一次端到端验证
-  - [ ] 根据运行结果调整单轮步长与播报频率
+  - [ ] 如需重启自动推进，先在测试任务中验证“可开可关”
+  - [ ] 通过后再评估是否引入 cron/hook 升级
 - **相关文件**: `HEARTBEAT.md`, `memory/continuous-task.json`, `memory/2026-03-07.md`
-- **更新时间**: 2026-03-07 21:50
+- **更新时间**: 2026-03-07 21:58
