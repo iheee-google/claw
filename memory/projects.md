@@ -127,3 +127,13 @@
   - [ ] 根据阅读反馈微调选题与结构
 - **相关文件**: `HEARTBEAT.md`, `memory/2026-03-07.md`
 - **更新时间**: 2026-03-07 21:07
+
+
+### [PROJECT:Continuous Task Autopilot]
+- **状态**: 进行中
+- **最近结论**: 已建立连续任务状态文件 `memory/continuous-task.json`，并在 HEARTBEAT 中加入“每轮推进一步”的执行规则。
+- **下一步**:
+  - [ ] 用真实连续优化任务跑一次端到端验证
+  - [ ] 根据运行结果调整单轮步长与播报频率
+- **相关文件**: `HEARTBEAT.md`, `memory/continuous-task.json`, `memory/2026-03-07.md`
+- **更新时间**: 2026-03-07 21:50

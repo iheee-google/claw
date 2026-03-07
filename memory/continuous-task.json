@@ -1,0 +1,10 @@
+{
+  "active": false,
+  "project": "",
+  "goal": "",
+  "step": 0,
+  "steps": [],
+  "lastRun": null,
+  "lastReport": null,
+  "notes": "将连续任务写入该文件，heartbeat 每轮自动推进一步并主动回报。"
+}
