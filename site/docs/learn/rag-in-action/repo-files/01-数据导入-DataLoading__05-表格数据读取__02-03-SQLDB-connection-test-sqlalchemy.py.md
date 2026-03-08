@@ -1,0 +1,28 @@
+# 文件：01-数据导入-DataLoading/05-表格数据读取/02-03-SQLDB-connection-test-sqlalchemy.py
+
+- 相对路径：`01-数据导入-DataLoading/05-表格数据读取/02-03-SQLDB-connection-test-sqlalchemy.py`
+- 大小：`550` bytes
+- 原文件：[01-数据导入-DataLoading/05-表格数据读取/02-03-SQLDB-connection-test-sqlalchemy.py](/learn/rag-in-action/repo-raw/rag-in-action/01-数据导入-DataLoading/05-表格数据读取/02-03-SQLDB-connection-test-sqlalchemy.py)
+
+```python
+from sqlalchemy import create_engine, text
+import pandas as pd
+
+# 确保使用 pymysql 作为驱动
+engine = create_engine("mysql+pymysql://newuser:password@localhost:3306/example_db")
+
+# 测试连接
+try:
+    with engine.connect() as connection:
+        # 使用 text() 函数包装 SQL 语句
+        result = connection.execute(text("SELECT * FROM game_scenes"))
+        df = pd.DataFrame(result.fetchall(), columns=result.keys())
+        print("查询结果：")
+        print(df)
+except Exception as e:
+    print("数据库连接失败:", e)
+
+
+
+
+```

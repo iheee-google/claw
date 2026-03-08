@@ -22,7 +22,9 @@ export default {
           text: 'RAG in Action（新手路径）',
           items: [
             { text: '总览', link: '/learn/rag-in-action/' },
+            { text: '新手剖析视角', link: '/learn/rag-in-action/beginner-analysis' },
             { text: '项目结构总览', link: '/learn/rag-in-action/project-tree' },
+            { text: '仓库文件总索引（全量）', link: '/learn/rag-in-action/repo-files/' },
             { text: '00 简单 RAG', link: '/learn/rag-in-action/00-simple-rag' },
             { text: '01 数据导入', link: '/learn/rag-in-action/01-data-loading' },
             { text: '02 文本切块', link: '/learn/rag-in-action/02-doc-chunking' },

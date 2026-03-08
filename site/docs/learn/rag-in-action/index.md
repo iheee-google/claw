@@ -31,3 +31,9 @@
 ## 资料入口
 
 - [源资料：黑悟空设定（节选）](/learn/rag-in-action/materials/wukong-setting)
+
+
+## 仓库全量入口
+
+- [完整树结构（全量）](/learn/rag-in-action/project-tree)
+- [仓库文件总索引（全量）](/learn/rag-in-action/repo-files/)
