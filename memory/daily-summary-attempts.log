@@ -6,3 +6,9 @@
 2026-03-05T11:46:08+0800	attempt=3	success	error=-
 2026-03-06T22:09:00+0800	attempt=1	success	error=-
 2026-03-08T22:01:21+0800 | attempt=1 | success | note=generated_summary_for_2026-03-08_via_cron_auto_delivery
+[2026-03-08 23:30 Asia/Shanghai] Weekly archive compress git sync note: ran `git add memory/memory-maintenance-state.json && git commit -m "同步cron记忆回写（2026-03-08）"` successfully on branch `feat/vitepress-only-2026-03-08` (commit 79e8a1f). Then ran `git push origin main`, output `Everything up-to-date`, so this commit was not pushed to `origin/main` because local HEAD is on a different branch.
+Fix commands:
+1) git checkout main
+2) git cherry-pick 79e8a1f
+3) git push origin main
+(Alternative: git push origin HEAD:main)
