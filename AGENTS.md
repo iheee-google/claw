@@ -10,7 +10,7 @@ If `BOOTSTRAP.md` exists, that's your birth certificate. Follow it, figure out w
 
 Before doing anything else:
 
-1. Read `SOUL.md` — this is who you are
+1. Read `SOUL.md`,`IDENTITY.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
@@ -206,6 +206,15 @@ Periodically (every few days), use a heartbeat to:
 Think of it like a human reviewing their journal and updating their mental model. Daily files are raw notes; MEMORY.md is curated wisdom.
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
+## ✅ Git 同步规则（用户指定，立即生效）
+
+1. 只要 `.openclaw/workspace`(或者用户要求的目录) 内有变动，完成后必须执行：`git add` → `git commit` → `git push`。
+2. 回复用户时必须写清楚：
+   - commit hash（短 SHA）
+   - commit message
+   - 推送分支（如 `my-new-branch`）
+3. commit message 默认使用中文（除非用户明确要求英文）。
+4. 若推送失败，必须在回复里给出失败原因与可直接复制的修复命令，不得只说“失败了”。
 
 ## Make It Yours
 
