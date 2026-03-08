@@ -8,12 +8,34 @@ export default {
     nav: [
       { text: '首页', link: '/' },
       { text: '快速开始', link: '/guide/getting-started' },
-      { text: '文章', link: '/posts/' }
+      { text: '文章', link: '/posts/' },
+      { text: '学习笔记', link: '/learn/rag-in-action/' }
     ],
     sidebar: {
       '/guide/': [
         { text: '站点说明', link: '/guide/about-site' },
         { text: '文章索引', link: '/posts/' }
+      ],
+
+      '/learn/': [
+        {
+          text: 'RAG in Action（新手路径）',
+          items: [
+            { text: '总览', link: '/learn/rag-in-action/' },
+            { text: '00 简单 RAG', link: '/learn/rag-in-action/00-simple-rag' },
+            { text: '01 数据导入', link: '/learn/rag-in-action/01-data-loading' },
+            { text: '02 文本切块', link: '/learn/rag-in-action/02-doc-chunking' },
+            { text: '03 向量嵌入', link: '/learn/rag-in-action/03-embedding' },
+            { text: '04 向量存储', link: '/learn/rag-in-action/04-vector-db' },
+            { text: '05 检索前处理', link: '/learn/rag-in-action/05-pre-retrieval' },
+            { text: '06 索引优化', link: '/learn/rag-in-action/06-indexing' },
+            { text: '07 检索后处理', link: '/learn/rag-in-action/07-post-retrieval' },
+            { text: '08 响应生成', link: '/learn/rag-in-action/08-generation' },
+            { text: '09 系统评估', link: '/learn/rag-in-action/09-evaluation' },
+            { text: '10 高级 RAG', link: '/learn/rag-in-action/10-advanced-rag' },
+            { text: '术语词典', link: '/learn/rag-in-action/glossary' }
+          ]
+        }
       ],
       '/posts/': [
         { text: '文章索引', link: '/posts/' },
