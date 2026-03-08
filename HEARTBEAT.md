@@ -24,13 +24,6 @@
   - 更新 `memory/memory-maintenance-state.json` 的 `lastRun.sessionClosePatch`
 - 23:30–08:30 为静默时段：非紧急不外发提醒。
 
-## 每日总结回写（22:00 cron）
-- 若 `memory/daily-summary-state.json` 显示今日已发送成功：
-  - 必须在 `memory/YYYY-MM-DD.md` 追加 1 条“Daily Summary Cron”结论日志（含 sentAt/attempts/result）。
-- 若发送失败：
-  - 在当日日志记录失败原因与下一步补救动作。
-
-
 ## 三天一次：笔记回写网站（VitePress）
 - 触发频率：每 3 天一次（Asia/Shanghai）。
 - 数据范围：最近 3 天 `memory/YYYY-MM-DD.md` + `memory/projects.md` + `memory/lessons.md`。
