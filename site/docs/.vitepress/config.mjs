@@ -4,6 +4,11 @@ export default {
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
+  ignoreDeadLinks: true,
+
+  vite: {
+    assetsInclude: ['**/*.PNG', '**/*.JPG', '**/*.JPEG', '**/*.PDF', '**/*.DOCX', '**/*.PPTX', '**/*.XLSX']
+  },
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
