@@ -279,3 +279,22 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 12. **异常降级文案**：若工具异常/超时，必须返回明确说明与下一步，不允许留空。
 13. **长链任务主动播报**：进入连续多步骤执行后，即使用户未追问，也必须按固定节拍主动汇报（建议每 2~5 分钟一次，或每完成一个里程碑立即汇报）。
 14. **禁止“等用户催”**：不得形成“用户发一句才回一句”的被动节奏；默认主动推进并同步进展。
+
+## 🧭 分支内容路由（强约束）
+
+为避免提交串分支，执行以下固定规则：
+
+- `main`：仅提交记忆/规则/流程类文件（`memory/**`、`MEMORY.md`、`AGENTS.md`、`SOUL.md`、`USER.md`、`IDENTITY.md`、`HEARTBEAT.md`、`TOOLS.md` 等）。
+- `feat/vitepress-only-*`：仅提交 VitePress 站点相关文件（`site/**`、VitePress 相关 `deploy/**`）。
+- `feat/website-wordpress`：仅提交 WordPress 相关脚本与站点改动。
+
+提交前必须先检查：
+
+```bash
+git branch --show-current
+git status --short
+```
+
+若当前分支出现不属于本分支职责的文件，必须中止并拆分到正确分支后再提交。
+
+详细对照表：见 `BRANCHES.md`。
