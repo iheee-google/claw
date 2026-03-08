@@ -29,3 +29,17 @@
   - 必须在 `memory/YYYY-MM-DD.md` 追加 1 条“Daily Summary Cron”结论日志（含 sentAt/attempts/result）。
 - 若发送失败：
   - 在当日日志记录失败原因与下一步补救动作。
+
+
+## 三天一次：笔记回写网站（VitePress）
+- 触发频率：每 3 天一次（Asia/Shanghai）。
+- 数据范围：最近 3 天 `memory/YYYY-MM-DD.md` + `memory/projects.md` + `memory/lessons.md`。
+- 执行动作：
+  1. 提炼这三天的新增结论、复盘和可复用清单；
+  2. 写入网站对应分支（`feat/vitepress-only-*`）的学习笔记模块；
+  3. 提交并推送网站分支；
+  4. 在当日 `memory/YYYY-MM-DD.md` 记录“已回写网站”结论与 commit 信息。
+- 约束：
+  - 仅同步可公开内容，隐私信息不入站；
+  - 若网络/仓库异常，必须在当日日志记录失败原因与下一步补救。
+
