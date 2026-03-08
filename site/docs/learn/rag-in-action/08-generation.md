@@ -1,11 +1,19 @@
 # 08 响应生成：把检索结果转成答案
 
-重点不是“写得多漂亮”，而是：
-- 不胡编
-- 能引用上下文
-- 不知道就明确说不知道
+## 对应源码
+- `08-响应生成-Generation/**`
+- `00-简单RAG-SimpleRAG/03_LangChain_LCEL_RAG_v1.py`
 
-建议在提示词中写清：
-- 回答边界
-- 证据来源格式
-- 无答案时的退路文案
+## 代码片段（LCEL 链）
+```python
+chain = (
+  {"context": retriever | format_docs, "question": RunnablePassthrough()}
+  | prompt
+  | llm
+  | StrOutputParser()
+)
+```
+
+## 新手提示词要点
+- 只基于上下文回答
+- 无答案时明确说“不知道”

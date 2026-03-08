@@ -1,10 +1,15 @@
 # 09 系统评估：RAGAS / TruLens / DeepEval
 
-新手常忽略：RAG 不是“能答”就算完成，必须可评估。
+## 对应源码
+- `09-系统评估-Evaluation/01-RAGAS.py`
+- `09-系统评估-Evaluation/02-Trulens.py`
+- `09-系统评估-Evaluation/03-DeepEval.py`
 
-关注指标：
-- faithfulness（忠实度）
-- answer relevancy（答案相关性）
-- context precision / recall（上下文精确率/召回率）
+## 为什么要评估
+- 你优化后到底有没有变好？
+- 没有指标就只有“感觉”。
 
-先建一组固定测试集，再谈优化是否有效。
+## 常见指标
+- faithfulness
+- answer relevancy
+- context precision / recall

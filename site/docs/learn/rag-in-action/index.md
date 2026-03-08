@@ -4,6 +4,7 @@
 
 ## 学习路线图
 
+- [项目结构总览（先看这个）](/learn/rag-in-action/project-tree)
 1. [00 简单 RAG：先跑通最小闭环](/learn/rag-in-action/00-simple-rag)
 2. [01 数据导入：先把数据喂进来](/learn/rag-in-action/01-data-loading)
 3. [02 文本切块：切得好，检索才准](/learn/rag-in-action/02-doc-chunking)
@@ -25,3 +26,8 @@
   - 写 1 条“我今天真正搞懂了什么”
 - 先不追求“最优参数”，先追求“可复现”。
 - 卡住时优先记录报错 + 当前输入输出，再回头查。
+
+
+## 资料入口
+
+- [源资料：黑悟空设定（节选）](/learn/rag-in-action/materials/wukong-setting)

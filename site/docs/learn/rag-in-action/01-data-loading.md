@@ -1,9 +1,20 @@
 # 01 数据导入：先把数据喂进来
 
-- 目标：支持 txt/pdf/web 等多源数据。
-- 心法：**数据质量 > 花哨模型**。
+## 对应源码
+- `01-数据导入-DataLoading/*`
+- `00-简单RAG-SimpleRAG/01_01_LlamaIndex_5行代码.py`
 
-建议记录：
-- 数据来源
-- 编码/清洗方式
-- 是否有噪声字段（广告、页眉页脚）
+## 代码示例（文件读取）
+```python
+from llama_index.core import SimpleDirectoryReader
+
+documents = SimpleDirectoryReader(
+    input_files=["90-文档-Data/黑悟空/设定.txt"]
+).load_data()
+print(len(documents))
+```
+
+## 新手易错点
+- 文件路径写错（相对路径 vs 工作目录）
+- 编码问题（中文文件）
+- 读到了“脏数据”（页眉页脚/广告）

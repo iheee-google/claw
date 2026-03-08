@@ -22,6 +22,7 @@ export default {
           text: 'RAG in Action（新手路径）',
           items: [
             { text: '总览', link: '/learn/rag-in-action/' },
+            { text: '项目结构总览', link: '/learn/rag-in-action/project-tree' },
             { text: '00 简单 RAG', link: '/learn/rag-in-action/00-simple-rag' },
             { text: '01 数据导入', link: '/learn/rag-in-action/01-data-loading' },
             { text: '02 文本切块', link: '/learn/rag-in-action/02-doc-chunking' },
@@ -33,7 +34,8 @@ export default {
             { text: '08 响应生成', link: '/learn/rag-in-action/08-generation' },
             { text: '09 系统评估', link: '/learn/rag-in-action/09-evaluation' },
             { text: '10 高级 RAG', link: '/learn/rag-in-action/10-advanced-rag' },
-            { text: '术语词典', link: '/learn/rag-in-action/glossary' }
+            { text: '术语词典', link: '/learn/rag-in-action/glossary' },
+            { text: '源资料：黑悟空设定', link: '/learn/rag-in-action/materials/wukong-setting' }
           ]
         }
       ],

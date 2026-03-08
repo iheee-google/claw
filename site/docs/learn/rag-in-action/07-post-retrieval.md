@@ -1,8 +1,16 @@
 # 07 检索后处理：结果重排与过滤
 
-典型动作：
-- rerank（重排）
-- 去重
-- 低质量片段过滤
+## 对应源码
+- `07-检索后处理-PostRetrieval/**`
 
-目标：让最终喂给模型的上下文更“干净、相关、可回答”。
+## 代码示意
+```python
+# 伪代码：重排
+candidates = retriever.invoke(question)
+reranked = reranker.rank(question, candidates)
+context = reranked[:3]
+```
+
+## 新手重点
+- 召回多不等于回答好
+- 重排是“把最该看的放前面”
