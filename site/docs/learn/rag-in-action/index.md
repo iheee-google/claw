@@ -37,3 +37,10 @@
 
 - [完整树结构（全量）](/learn/rag-in-action/project-tree)
 - [仓库文件总索引（全量）](/learn/rag-in-action/repo-files/)
+
+
+## 项目镜像文章入口（按原目录映射）
+
+- [项目镜像总入口](/learn/rag-in-action/project/)
+- 说明：这里是“把项目文件直接写进对应文章”的主入口，每个文件一篇文章，可按目录逐层进入。
+

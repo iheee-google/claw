@@ -1,0 +1,25 @@
+# 00-简单RAG-SimpleRAG
+
+本目录文件：
+
+- [01_01_LlamaIndex_5行代码.py](./01_01_LlamaIndex_5行代码-py)
+- [01_02_LlamaIndex_更换嵌入模型.py](./01_02_LlamaIndex_更换嵌入模型-py)
+- [01_03_LlamaIndex_更换兼容OPENAI API的模型](./01_03_LlamaIndex_更换兼容OPENAI API的模型)
+- [01_03_LlamaIndex_更换生成模型.py](./01_03_LlamaIndex_更换生成模型-py)
+- [01_04_LlamaIndex_5行代码_DeepSeek.py](./01_04_LlamaIndex_5行代码_DeepSeek-py)
+- [01_05_LlamaIndex_5行代码_Ollama.py](./01_05_LlamaIndex_5行代码_Ollama-py)
+- [02_01_LangChain_DeepSeek_Model_v1.py](./02_01_LangChain_DeepSeek_Model_v1-py)
+- [02_02_LangChain_DeepSeek_Model_v2.py](./02_02_LangChain_DeepSeek_Model_v2-py)
+- [02_03_LangChain_OpenAI_Model.py](./02_03_LangChain_OpenAI_Model-py)
+- [02_04_LangChain_HuggingFace_Model.py](./02_04_LangChain_HuggingFace_Model-py)
+- [02_05_LangChain_Ollama_Model.py](./02_05_LangChain_Ollama_Model-py)
+- [03_LangChain_LCEL_RAG_v1.py](./03_LangChain_LCEL_RAG_v1-py)
+- [03_LangChain_LCEL_RAG_v2.py](./03_LangChain_LCEL_RAG_v2-py)
+- [03_LangChain_LCEL_RAG_v3.py](./03_LangChain_LCEL_RAG_v3-py)
+- [04_LangGraph_RAG.ipynb](./04_LangGraph_RAG-ipynb)
+- [04_LangGraph_RAG.py](./04_LangGraph_RAG-py)
+- [04_LangGraph_RAG_Ollama.py](./04_LangGraph_RAG_Ollama-py)
+- [05_RAG_from_Scratch_Claude.py](./05_RAG_from_Scratch_Claude-py)
+- [05_RAG_from_Scratch_DeepSeek.py](./05_RAG_from_Scratch_DeepSeek-py)
+- [05_RAG_from_Scratch_Ollama.py](./05_RAG_from_Scratch_Ollama-py)
+- [99_Testing.py](./99_Testing-py)
