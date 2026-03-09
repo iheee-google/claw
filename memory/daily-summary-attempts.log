@@ -12,3 +12,4 @@ Fix commands:
 2) git cherry-pick 79e8a1f
 3) git push origin main
 (Alternative: git push origin HEAD:main)
+2026-03-09T12:00:29+0800 | task=projects_sync_noon | status=blocked | reason=git_worktree_not_clean_before_memory_write | details="D BOOT.md; D README.md; ?? memory/2026-03-09-skills-policy.md" | fix="commit_or_stash_non_memory_changes_then_rerun"
