@@ -29,7 +29,6 @@ export default {
             { text: '总览', link: '/learn/rag-in-action/' },
             { text: '新手剖析视角', link: '/learn/rag-in-action/beginner-analysis' },
             { text: '项目结构总览', link: '/learn/rag-in-action/project-tree' },
-            { text: '项目镜像总入口', link: '/learn/rag-in-action/project/' },
             { text: '代码解释版', link: '/learn/rag-in-action/explain/' },
             { text: '仓库文件总索引（全量）', link: '/learn/rag-in-action/repo-files/' },
             { text: '00 简单 RAG', link: '/learn/rag-in-action/00-simple-rag' },
