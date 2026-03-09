@@ -1,15 +1,1 @@
-2026-03-05T11:38:00+08:00	attempt=1	status=fail	error=Use `target` instead of `to`/`channelId`.
-2026-03-05T11:38:20+08:00	attempt=2	status=fail	error=Use `target` instead of `to`/`channelId`.
-2026-03-05T11:38:35+08:00	attempt=3	status=fail	error=Use `target` instead of `to`/`channelId`.
-2026-03-05T11:45:11+0800	attempt=1	fail	error=Use target instead of to/channelId
-2026-03-05T11:45:38+0800	attempt=2	fail	error=Use target instead of to/channelId (included forbidden empty fields)
-2026-03-05T11:46:08+0800	attempt=3	success	error=-
-2026-03-06T22:09:00+0800	attempt=1	success	error=-
-2026-03-08T22:01:21+0800 | attempt=1 | success | note=generated_summary_for_2026-03-08_via_cron_auto_delivery
-[2026-03-08 23:30 Asia/Shanghai] Weekly archive compress git sync note: ran `git add memory/memory-maintenance-state.json && git commit -m "同步cron记忆回写（2026-03-08）"` successfully on branch `feat/vitepress-only-2026-03-08` (commit 79e8a1f). Then ran `git push origin main`, output `Everything up-to-date`, so this commit was not pushed to `origin/main` because local HEAD is on a different branch.
-Fix commands:
-1) git checkout main
-2) git cherry-pick 79e8a1f
-3) git push origin main
-(Alternative: git push origin HEAD:main)
-2026-03-09T12:00:29+0800 | task=projects_sync_noon | status=blocked | reason=git_worktree_not_clean_before_memory_write | details="D BOOT.md; D README.md; ?? memory/2026-03-09-skills-policy.md" | fix="commit_or_stash_non_memory_changes_then_rerun"
+[2026-03-09 22:00:35 +0800] attempt=1 status=fail error="precheck failed: git checkout main aborted (untracked files would be overwritten: .openclaw/workspace-state.json, AGENTS.md, HEARTBEAT.md, IDENTITY.md, SOUL.md, TOOLS.md, USER.md)"
