@@ -190,3 +190,31 @@
 .vp-doc._learn_rag-in-action_repo-files_ li {
   margin: 3px 0;
 }
+
+/* 仓库索引树：目录/文件图标 + 展开高亮 + 层级层次 */
+.vp-doc._learn_rag-in-action_repo-files_ summary {
+  font-weight: 600;
+  line-height: 1.6;
+  padding: 1px 4px;
+  border-radius: 6px;
+}
+
+.vp-doc._learn_rag-in-action_repo-files_ details[open] > summary {
+  background: color-mix(in oklab, var(--vp-c-brand-1) 10%, transparent);
+}
+
+.vp-doc._learn_rag-in-action_repo-files_ summary::before {
+  content: "📂 ";
+}
+
+.vp-doc._learn_rag-in-action_repo-files_ li::marker {
+  content: "📄 ";
+}
+
+.vp-doc._learn_rag-in-action_repo-files_ details details summary {
+  font-size: 0.96em;
+}
+
+.vp-doc._learn_rag-in-action_repo-files_ details details details summary {
+  font-size: 0.93em;
+}
