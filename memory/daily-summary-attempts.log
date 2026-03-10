@@ -1,1 +1,4 @@
 [2026-03-09 22:00:35 +0800] attempt=1 status=fail error="precheck failed: git checkout main aborted (untracked files would be overwritten: .openclaw/workspace-state.json, AGENTS.md, HEARTBEAT.md, IDENTITY.md, SOUL.md, TOOLS.md, USER.md)"
+- Daily Summary Cron | time=2026-03-10 22:00:00 +0800 | attempt=1 | result=fail | reason=policy: external message send disallowed in this run; instructed to note target instead
+- Daily Summary Cron | time=2026-03-10 22:00:05 +0800 | attempt=2 | result=fail | reason=policy: external message send disallowed in this run; instructed to note target instead
+- Daily Summary Cron | time=2026-03-10 22:00:10 +0800 | attempt=3 | result=fail | reason=policy: external message send disallowed in this run; instructed to note target instead
