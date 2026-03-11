@@ -1,1 +1,1 @@
-2026-03-10 23:00:01 [cron:e79955fc-d332-4d01-be74-a11704282421 Memory Lessons Extractor] ERROR: main分支存在未提交变更，已停止执行；未继续写入memory。未提交文件：memory/daily-summary-attempts.log, memory/daily-summary-state.json
+2026-03-11 22:02:54 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=1 fail error=Use `target` instead of `to`/`channelId`.
