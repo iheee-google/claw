@@ -1,4 +1,4 @@
 2026-03-11 22:08:26 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=1 fail error=Use `target` instead of `to`/`channelId`.
 2026-03-11 22:10:00 +0800 [cron:aa6935a0-6aeb-4418-b54b-3e84a62a628d Daily Memory Reconciliation] attempt=1 fail error=Uncommitted changes present: M  memory/daily-summary-attempts.log;M  memory/daily-summary-state.json]
-2026-03-12T22:00:00+0800 attempt=1 success=true error=
-2026-03-12T22:00:00+0800 attempt=1 success=false error=Use\ `target`\ instead\ of\ `to`/`channelId`.
+2026-03-12T22:00:00+0800 attempt=1 success=false error=Use `target` instead of `to`/`channelId`.
+2026-03-12 22:00:00 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=1 fail error=Uncommitted changes present: M memory/daily-summary-attempts.log; M memory/daily-summary-state.json
