@@ -121,12 +121,12 @@
 
 ### [PROJECT:Heartbeat]
 - **状态**: 进行中
-- **最近结论**: 已纠偏收口触发逻辑：新增“距上次 sessionClosePatch 满2小时”冷却条件，避免短间隔重复写入。
+- **最近结论**: 00:12 收到心跳，检测到当日日志缺失，已创建 `memory/2026-03-13.md` 并补写首条结论。
 - **下一步**:
   - [ ] 观察下一次触发时间是否符合2小时冷却
   - [ ] 如仍异常，补充 openclaw 配置层排查
-- **相关文件**: `HEARTBEAT.md`, `memory/2026-03-07.md`, `memory/memory-maintenance-state.json`
-- **更新时间**: 2026-03-07 22:22
+- **相关文件**: `HEARTBEAT.md`, `memory/2026-03-13.md`, `memory/memory-maintenance-state.json`
+- **更新时间**: 2026-03-13 12:00
 
 ### [PROJECT:Website Deployment]
 - **状态**: 进行中
