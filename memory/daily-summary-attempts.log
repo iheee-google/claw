@@ -6,3 +6,6 @@
 2026-03-13 22:03:23 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=2 fail error=Use `target` instead of `to`/`channelId`.
 2026-03-13 22:03:23 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=3 fail error=Use `target` instead of `to`/`channelId`.
 2026-03-13 22:03:23 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] git_sync=not_run reason=message_send_failed last_error=Use `target` instead of `to`/`channelId`.
+{"ts":"2026-03-14T22:01:28+08:00","attempt":1,"success":false,"error":"message: Use `target` instead of `to`/`channelId`."}
+{"ts":"2026-03-14T22:02:28+08:00","attempt":2,"success":false,"error":"message: Use `target` instead of `to`/`channelId`."}
+{"ts":"2026-03-14T22:03:02+08:00","attempt":3,"success":false,"error":"message: Use `target` instead of `to`/`channelId`."}
