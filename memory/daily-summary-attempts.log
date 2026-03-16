@@ -1,14 +1,3 @@
-2026-03-11 22:08:26 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=1 fail error=Use `target` instead of `to`/`channelId`.
-2026-03-11 22:10:00 +0800 [cron:aa6935a0-6aeb-4418-b54b-3e84a62a628d Daily Memory Reconciliation] attempt=1 fail error=Uncommitted changes present: M  memory/daily-summary-attempts.log;M  memory/daily-summary-state.json]
-2026-03-12T22:00:00+0800 attempt=1 success=false error=Use `target` instead of `to`/`channelId`.
-2026-03-12 22:00:00 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=1 fail error=Uncommitted changes present: M memory/daily-summary-attempts.log; M memory/daily-summary-state.json
-2026-03-13 22:03:23 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=1 fail error=Use `target` instead of `to`/`channelId`.
-2026-03-13 22:03:23 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=2 fail error=Use `target` instead of `to`/`channelId`.
-2026-03-13 22:03:23 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=3 fail error=Use `target` instead of `to`/`channelId`.
-2026-03-13 22:03:23 +0800 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] git_sync=not_run reason=message_send_failed last_error=Use `target` instead of `to`/`channelId`.
-{"ts":"2026-03-14T22:01:28+08:00","attempt":1,"success":false,"error":"message: Use `target` instead of `to`/`channelId`."}
-{"ts":"2026-03-14T22:02:28+08:00","attempt":2,"success":false,"error":"message: Use `target` instead of `to`/`channelId`."}
-{"ts":"2026-03-14T22:03:02+08:00","attempt":3,"success":false,"error":"message: Use `target` instead of `to`/`channelId`."}
-2026-03-15T22:01:44+08:00 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=1 fail error=message: Use `target` instead of `to`/`channelId`.
-2026-03-15T22:01:50+08:00 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=2 fail error=message: Use `target` instead of `to`/`channelId`.
-2026-03-15T22:01:56+08:00 [cron:3be14a62-8af7-488a-b05e-35470fc3b890 Daily 22:00 Chat Summary] attempt=3 fail error=message: Use `target` instead of `to`/`channelId`.
+2026-03-16 22:00:00 +0800 | attempt 1 | fail | Use `target` instead of `to`/`channelId`.
+2026-03-16 22:00:00 +0800 | attempt 2 | fail | Use `target` instead of `to`/`channelId`.
+2026-03-16 22:00:00 +0800 | attempt 3 | fail | Use `target` instead of `to`/`channelId`.
