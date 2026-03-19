@@ -1,13 +1,13 @@
 {
   "lastRun": {
     "sessionClosePatch": "2026-03-19T22:01:00+08:00",
-    "lessonsExtractNight": "2026-03-18T23:00:00+08:00",
+    "lessonsExtractNight": "2026-03-19T23:00:00+08:00",
     "weeklyArchive": "2026-03-15T23:30:00+08:00",
     "projectsSyncNoon": "2026-03-19T12:00:00+08:00"
   },
   "lastTouchedFiles": [
     "memory/2026-03-19.md",
-    "memory/projects.md",
+    "memory/lessons.md",
     "memory/memory-maintenance-state.json"
   ]
 }
