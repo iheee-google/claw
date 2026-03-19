@@ -4,3 +4,6 @@
 2026-03-18T22:01:32+08:00	attempt=1	fail	Use `target` instead of `to`/`channelId`.
 2026-03-18T22:01:32+08:00	attempt=2	fail	Use `target` instead of `to`/`channelId`.
 2026-03-18T22:01:32+08:00	attempt=3	fail	Use `target` instead of `to`/`channelId`.
+2026-03-19T22:02:13+08:00	attempt=1	success=fail	error=message tool error: Use `target` instead of `to`/`channelId`.
+2026-03-19T22:05:46+08:00	attempt=2	success=fail	error=message tool error: Use `target` instead of `to`/`channelId`.
+2026-03-19T22:06:21+08:00	attempt=3	success=fail	error=message tool error: Use `target` instead of `to`/`channelId`.
