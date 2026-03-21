@@ -3,11 +3,10 @@
     "sessionClosePatch": "2026-03-21T11:24:00+08:00",
     "lessonsExtractNight": "2026-03-20T23:00:00+08:00",
     "weeklyArchive": "2026-03-15T23:30:00+08:00",
-    "projectsSyncNoon": "2026-03-20T12:00:00+08:00"
+    "projectsSyncNoon": "2026-03-21T12:00:00+08:00"
   },
   "lastTouchedFiles": [
-    "memory/2026-03-20.md",
-    "memory/lessons.md",
+    "memory/2026-03-21.md",
     "memory/memory-maintenance-state.json"
   ]
 }
