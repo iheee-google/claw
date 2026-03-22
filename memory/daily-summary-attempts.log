@@ -1,15 +1,3 @@
-2026-03-17T22:00:00+08:00	attempt=1	fail	Use `target` instead of `to`/`channelId`.
-2026-03-17T22:00:00+08:00	attempt=2	fail	Use `target` instead of `to`/`channelId`.
-2026-03-17T22:00:00+08:00	attempt=3	fail	Use `target` instead of `to`/`channelId`.
-2026-03-18T22:01:32+08:00	attempt=1	fail	Use `target` instead of `to`/`channelId`.
-2026-03-18T22:01:32+08:00	attempt=2	fail	Use `target` instead of `to`/`channelId`.
-2026-03-18T22:01:32+08:00	attempt=3	fail	Use `target` instead of `to`/`channelId`.
-2026-03-19T22:02:13+08:00	attempt=1	success=fail	error=message tool error: Use `target` instead of `to`/`channelId`.
-2026-03-19T22:05:46+08:00	attempt=2	success=fail	error=message tool error: Use `target` instead of `to`/`channelId`.
-2026-03-19T22:06:21+08:00	attempt=3	success=fail	error=message tool error: Use `target` instead of `to`/`channelId`.
-2026-03-20T22:00:55+08:00\tattempt=1\tsuccess=fail\terror=message_tool_error:Use_target_instead_of_to_channelId
-2026-03-20T22:00:55+08:00\tattempt=2\tsuccess=fail\terror=message_tool_error:Use_target_instead_of_to_channelId
-2026-03-20T22:00:55+08:00\tattempt=3\tsuccess=fail\terror=message_tool_error:Use_target_instead_of_to_channelId
-2026-03-21T22:00:00+08:00 attempt=1 success=fail error=Use target instead of to/channelId
-2026-03-21T22:00:01+08:00 attempt=2 success=fail error=Use target instead of to/channelId
-2026-03-21T22:00:02+08:00 attempt=3 success=success delivery=auto target=feishu:user:ou_2a61b491c5e0fe25dbedd3a85551b5b3
+2026-03-22T22:02:37+08:00 attempt=1 success=fail error=message_tool_error:Use target instead of to/channelId
+2026-03-22T22:02:37+08:00 attempt=2 success=fail error=message_tool_error:Use target instead of to/channelId
+2026-03-22T22:02:37+08:00 attempt=3 success=fail error=message_tool_error:Use target instead of to/channelId
