@@ -1,3 +1,7 @@
 2026-03-22T22:02:37+08:00 attempt=1 success=fail error=message_tool_error:Use target instead of to/channelId
 2026-03-22T22:02:37+08:00 attempt=2 success=fail error=message_tool_error:Use target instead of to/channelId
 2026-03-22T22:02:37+08:00 attempt=3 success=fail error=message_tool_error:Use target instead of to/channelId
+2026-03-23T22:04:23+08:00\tattempt=1\tsuccess=false\terror=message tool error: Use `target` instead of `to`/`channelId`.
+2026-03-23T22:04:23+08:00\tattempt=2\tsuccess=false\terror=message tool error: Use `target` instead of `to`/`channelId`.
+2026-03-23T22:04:23+08:00\tattempt=3\tsuccess=false\terror=message tool error: Use `target` instead of `to`/`channelId`.
+2026-03-23T22:04:23+08:00\tjobId=3be14a62-8af7-488a-b05e-35470fc3b890\tgit_sync=skipped\treason=send_failed_message_tool_error\tfix=重新配置message调用只保留action/target/message/channel/accountId字段后重试
