@@ -3,22 +3,11 @@
     "sessionClosePatch": "2026-03-23T09:42:00+08:00",
     "lessonsExtractNight": "2026-03-22T23:00:00+08:00",
     "weeklyArchive": "2026-03-22T23:30:00+08:00",
-    "projectsSyncNoon": "2026-03-22T12:00:00+08:00"
+    "projectsSyncNoon": "2026-03-23T12:00:00+08:00"
   },
   "lastTouchedFiles": [
-    "memory/2026-03-10.md",
-    "memory/2026-03-11.md",
-    "memory/2026-03-12.md",
-    "memory/2026-03-13.md",
-    "memory/2026-03-14.md",
-    "memory/2026-03-15.md",
-    "memory/2026-03-16.md",
-    "memory/2026-03-17.md",
-    "memory/2026-03-18.md",
-    "memory/2026-03-19.md",
-    "memory/2026-03-20.md",
-    "memory/2026-03-21.md",
-    "memory/2026-03-22.md",
+    "memory/2026-03-23.md",
+    "memory/projects.md",
     "memory/memory-maintenance-state.json"
   ]
 }
