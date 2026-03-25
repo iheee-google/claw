@@ -8,3 +8,11 @@
 2026-03-24T22:00:00+08:00\tattempt=1\tsuccess=false\terror=message tool error: Use `target` instead of `to`/`channelId`.
 2026-03-24T22:00:00+08:00\tattempt=2\tsuccess=false\terror=message tool error: Use `target` instead of `to`/`channelId`.
 2026-03-24T22:00:00+08:00\tattempt=3\tsuccess=false\terror=message tool error: Use `target` instead of `to`/`channelId`.
+2026-03-25T22:00:00+08:00\tattempt=1\tsuccess=false\terror=message tool error: Use `target` instead of `to`/`channelId`.
+2026-03-25T22:00:00+08:00\tattempt=2\tsuccess=false\terror=message tool error: Use `target` instead of `to`/`channelId`.
+2026-03-25T22:00:00+08:00\tattempt=3\tsuccess=false\terror=message tool error: Use `target` instead of `to`/`channelId`.
+{
+  "git_sync": "failed",
+  "reason": "send_failed_message_tool_error",
+  "fix": "message tool 仅保留 action/target/message/channel/accountId 字段后重试"
+}
