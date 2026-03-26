@@ -16,3 +16,6 @@
   "reason": "send_failed_message_tool_error",
   "fix": "message tool 仅保留 action/target/message/channel/accountId 字段后重试"
 }
+2026-03-26T22:00:00+08:00	attempt=1	success=fail	error=message tool rejected: Use `target` instead of `to`/`channelId`.
+2026-03-26T22:00:30+08:00	attempt=2	success=fail	error=message tool rejected: Use `target` instead of `to`/`channelId`.
+2026-03-26T22:01:00+08:00	attempt=3	success=fail	error=message tool rejected: Use `target` instead of `to`/`channelId`.
