@@ -27,3 +27,4 @@
 2026-04-08T22:02:07+08:00 attempt=3 success=fail error=message_tool_error:Use `target` instead of `to`/`channelId`.
 2026-04-08T22:02:07+08:00 jobId=3be14a62-8af7-488a-b05e-35470fc3b890 git_sync=skipped reason=send_failed_message_tool_error fix=message调用仅保留action/target/message/channel/accountId字段后重试
 2026-04-08T22:02:07+08:00 jobId=3be14a62-8af7-488a-b05e-35470fc3b890 delivery=fail error_code=message_tool_error error_message=Use `target` instead of `to`/`channelId`.
+2026-04-08T22:12:30+08:00	cron Daily Memory Reconciliation aborted: uncommitted changes detected (memory/2026-04-08.md). Per policy, did not proceed with memory writes.
